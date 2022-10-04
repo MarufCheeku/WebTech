@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap");
+
+* {
+  font-family: "Source Code Pro", monospace;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+#logo {
+  position: absolute;
+  top: 15px;
+  left: 60px;
+}
+
+a {
+  text-decoration: none;
+  background-color: rgb(127, 187, 255);
+  padding: 7px 10px;
+  font-size: 25px;
+  color: rgb(245, 245, 245);
+}
+
+.one {
+  height: 600px;
+  width: 100%;
+}
+.two {
+  height: 450px;
+  width: 100%;
+  padding: 0 10rem;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.three {
+  height: 600px;
+  width: 100%;
+}
+.four {
+  height: 600px;
+  width: 100%;
+}
+.five {
+  height: 600px;
+  width: 100%;
+}
+.six {
+  height: 600px;
+  width: 100%;
+  background-image: url(./c21fbc8d09e1525e3f384829996f019c.jpg);
+}
+.seven {
+  height: 300px;
+  width: 100%;
+}
+
+/* styling div 1 ------------------------------------------------------- */
+
+.one div {
+  width: 50%;
+}
+
+#oneleft {
+  background-color: rgb(3, 29, 61);
+  color: rgb(240, 248, 255);
+  padding: 10rem 7rem;
+}
+
+#oneleft h1,
+#oneleft p {
+  margin: 5px;
+}
+
+#oneleft a {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+nav {
+  background-color: rgba(4, 25, 167, 0.1);
+  width: 50%;
+}
+
+.one div img {
+  width: 100%;
+}
+
+.one ul {
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+/* styling div 2  ---------------------------------------------------------- */
+
+.two article div {
+  padding: 0 3rem 0 0;
+}
+
+.two article div h2{
+  margin: 0;
+}
+
+.two article div p{
+  margin: 5px;
+}
+
+.two article div a{
+  display: inline-block;
+  margin-top: 15px;
+}
+
+/* styling div 3 ---------------------------------------------------------- */
+
+
+
+
+
+#one-sided-div img {
+  height: 100px;
+  width: 150px;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  justify-content: space-around;
+}
+article {
+  border: 3px solid rgb(251, 245, 245);
+}
