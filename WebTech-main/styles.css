@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap");
+
+* {
+	font-family: "Source Code Pro", monospace;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	padding: 1rem;
+	background-color: rgb(255, 235, 205);
+}
+
+ul {
+	list-style-type: none;
+}
+
+/* div 1 ---------------------------------- */
+
+#one {
+	display: flex;
+	flex-direction: row;
+	height: 100vh;
+}
+
+#one div {
+	width: 50%;
+	padding: 1rem 4rem;
+}
+
+nav ul {
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+/* div 2 ---------------------------------- */
+
+#two{
+  text-align: center;
+}
+
+#two ul{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+#two article img{
+  height: 200px;
+}
+
+/* div 3 ---------------------------------- */
+
+#three{
+  text-align: center;
+  height: 100vh;
+}
+
+#three ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#three article{
+  width: 200px;
+}
+
+#three article img{
+  height: 4rem;
+}
+
+/* div 4 ---------------------------------- */
+
+#four{
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+#side-image{
+  width: 100%;
+  /* object-fit: cover; */
+}
+
+#four section{
+  padding-left: 4rem;
+}
+
+#four article{
+  display: flex;
+  flex-direction: row;
+}
+
+#four ul img{
+  height: 3rem;
+}
+
+/* div 5 ---------------------------------- */
+
+#five{
+  height: 50vh;
+  background-image: url(./c21fbc8d09e1525e3f384829996f019c.jpg);
+}
+
+#five div{
+  text-align: center;
+  background-color: rgb(120, 200, 200);
+  max-width: 70%;
+  height: 200px;
+  margin:auto;
+}
+
+/* div 5 ---------------------------------- */
+
+#six{
+  height: 50vh;
+  background-color: rgb(128, 128, 128);
+  text-align: center;
+}
+
+#six>div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#six a img{
+  height: 3rem;
+  width: 3rem;
+}
