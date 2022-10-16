@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
 
 * {
-	font-family: "Source Code Pro", monospace;
+  font-family: 'Mulish', sans-serif;
 	box-sizing: border-box;
 }
 
@@ -94,8 +94,16 @@ nav ul {
   flex-direction: row;
 }
 
+#four article h5,#four article p{
+  margin: 0;
+}
+
 #four ul img{
   height: 3rem;
+}
+
+#four ul li{
+  margin: 2rem 0;
 }
 
 /* div 5 ---------------------------------- */
