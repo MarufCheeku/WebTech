@@ -1,18 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
 
 * {
-  font-family: 'Mulish', sans-serif;
+	font-family: "Mulish", sans-serif;
 	box-sizing: border-box;
-}
-
-a {
-	text-decoration: none;
-	padding: 1rem;
-	background-color: rgb(255, 235, 205);
 }
 
 ul {
 	list-style-type: none;
+}
+
+h1,
+h2 {
+	color: rgb(0, 84, 71);
+}
+
+h3,
+h4 {
+	color: rgb(0, 84, 71);
+	margin: 0;
 }
 
 /* div 1 ---------------------------------- */
@@ -23,9 +28,19 @@ ul {
 	height: 100vh;
 }
 
-#one div {
-	width: 50%;
+#one > div {
 	padding: 1rem 4rem;
+}
+#one img {
+	max-width: 50%;
+	object-fit: cover;
+}
+
+#one > div > a {
+	text-decoration: none;
+	padding: 1rem;
+	background-color: rgb(81, 193, 186);
+	color: rgb(240, 248, 255);
 }
 
 nav ul {
@@ -35,107 +50,170 @@ nav ul {
 	justify-content: space-between;
 }
 
+nav a {
+	text-decoration: none;
+}
+
+nav a:hover {
+	cursor: pointer;
+}
+
+#home-text {
+	margin-bottom: 3rem;
+	font-size: 0.8rem;
+}
+
+#one img {
+	object-fit: cover;
+}
+
 /* div 2 ---------------------------------- */
 
-#two{
-  text-align: center;
+#two {
+	text-align: center;
 }
 
-#two ul{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+#two ul {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 10px;
 }
 
-#two article img{
-  height: 200px;
+#two article img {
+	height: 200px;
+	width: 100%;
+	object-fit: cover;
+}
+
+#two li {
+	border: 1px solid rgb(20, 20, 20);
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
 }
 
 /* div 3 ---------------------------------- */
 
-#three{
-  text-align: center;
-  height: 100vh;
+#three {
+	text-align: center;
+	height: 100vh;
 }
 
-#three ul{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+#three p {
+	font-size: 0.8rem;
 }
 
-#three article{
-  width: 200px;
+#three > p {
+	margin: 0;
 }
 
-#three article img{
-  height: 4rem;
+#three ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#three article {
+	height: 200px;
+	width: 200px;
+}
+
+#three article img {
+	height: 4rem;
 }
 
 /* div 4 ---------------------------------- */
 
-#four{
-  height: 100vh;
-  display: flex;
-  flex-direction: row;
+#four {
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
 }
 
-#side-image{
-  width: 100%;
-  /* object-fit: cover; */
+#four section {
+	padding-left: 4rem;
 }
 
-#four section{
-  padding-left: 4rem;
+#four article {
+	display: flex;
+	flex-direction: row;
 }
 
-#four article{
-  display: flex;
-  flex-direction: row;
+#four article h5,
+#four article p {
+	margin: 0;
 }
 
-#four article h5,#four article p{
-  margin: 0;
+#four ul img {
+	height: 3rem;
 }
 
-#four ul img{
-  height: 3rem;
-}
-
-#four ul li{
-  margin: 2rem 0;
+#four ul li {
+	margin: 2rem 0;
 }
 
 /* div 5 ---------------------------------- */
 
-#five{
-  height: 50vh;
-  background-image: url(./c21fbc8d09e1525e3f384829996f019c.jpg);
+#five {
+	margin: 0;
+	height: 50vh;
+	background-image: linear-gradient(
+		to right,
+		rgb(160, 212, 184),
+		rgb(121, 207, 253)
+	);
+}
+#five h2 {
+	margin: 0;
 }
 
-#five div{
-  text-align: center;
-  background-color: rgb(120, 200, 200);
-  max-width: 70%;
-  height: 200px;
-  margin:auto;
+#five div {
+	text-align: center;
+	border-radius: 15px;
+	padding: 0.37rem;
+	background-color: rgb(254, 255, 240);
+	position: relative;
+	top: 70px;
+	max-width: 70%;
+	height: 80px;
+	margin: auto;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+#five input {
+	height: 36px;
+	padding: 1rem;
+}
+
+#five button {
+	background-color: rgb(45, 167, 127);
+	padding: 0.5rem;
+	border-color: rgb(45, 167, 127);
+	color: rgb(255, 255, 255);
 }
 
 /* div 5 ---------------------------------- */
 
-#six{
-  height: 50vh;
-  background-color: rgb(128, 128, 128);
-  text-align: center;
+#six {
+	height: 50vh;
+	text-align: center;
+  color: rgb(64, 72, 73);
 }
 
-#six>div{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+#six > div {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
-#six a img{
-  height: 3rem;
-  width: 3rem;
+#six a{
+  display: inline-block;
+  margin: 1rem 3rem;
+}
+
+#six ul{
+  text-align: left;
+}
+
+#six a img {
+	height: 3rem;
+	width: 3rem;
 }
