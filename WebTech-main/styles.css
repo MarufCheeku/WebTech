@@ -56,10 +56,14 @@ nav{
 
 nav a {
 	text-decoration: none;
+	padding: 0.7rem
 }
 
 nav a:hover {
 	cursor: pointer;
+	background-color: rgb(81, 193, 186);
+	color: rgb(240, 255, 255);
+	border-radius: 0.5rem;
 }
 
 #home-text {
